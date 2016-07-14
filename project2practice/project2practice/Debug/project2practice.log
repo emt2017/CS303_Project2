@@ -1,0 +1,24 @@
+﻿Build started 7/13/2016 1:17:39 PM.
+     1>Project "c:\Users\erich thompson\documents\visual studio 2015\Projects\project2practice\project2practice\project2practice.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp Passenger.cpp
+         Passenger.cpp
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(5): error C2511: 'Passenger::Passenger(int)': overloaded member function not found in 'Passenger'
+         c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.h(12): note: see declaration of 'Passenger'
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(6): error C2597: illegal reference to non-static member 'Passenger::arrival_time'
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(7): error C2065: 'my_random': undeclared identifier
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(7): error C2228: left of '.next_int' must have class/struct/union
+         c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(7): note: type is 'unknown-type'
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(7): error C2065: 'max_processing_time': undeclared identifier
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(8): error C2065: 'id_num': undeclared identifier
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(11): error C2039: 'max_processing_time': is not a member of 'Passenger'
+         c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.h(12): note: see declaration of 'Passenger'
+     1>c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.cpp(13): error C2039: 'id_num': is not a member of 'Passenger'
+         c:\users\erich thompson\documents\visual studio 2015\projects\project2practice\project2practice\passenger.h(12): note: see declaration of 'Passenger'
+         Source.cpp
+         Generating Code...
+     1>Done Building Project "c:\Users\erich thompson\documents\visual studio 2015\Projects\project2practice\project2practice\project2practice.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.83
